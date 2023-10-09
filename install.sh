@@ -6,4 +6,4 @@ sudo pacman -Syu --needed --noconfirm base base-devel bc python python-pip jdk8-
 sudo pacman -Sy --needed --noconfirm gcc-multilib gcc-libs-multilib libtool-multilib lib32-libusb lib32-readline lib32-glibc bash-completion lib32-zlib
 
 # ติดตั้งแพ็คเกจจาก AUR โดยใช้ Yay
-yay -Sy --needed --noconfirm lib32-libusb-compat android-sdk android-sdk-platform-tools android-udev esd-oss pngcrush tcp_wrappers termcap perl-switch python2 aosp-devel lineageos-devel 7-zip-full lbzip2
+yay -Sy --needed --noconfirm lib32-libusb-compat android-sdk android-sdk-platform-tools android-udev pngcrush termcap perl-switch python2 aosp-devel lineageos-devel 7-zip-full lbzip2
